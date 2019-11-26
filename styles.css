@@ -1,0 +1,20 @@
+.page1{
+    background-color: #FBCC00;
+}
+.logo{
+    padding-top: 85px;
+    display: block; 
+    text-align: center; /* Выравнивание по центру */
+}
+.title{
+    line-height: 0px
+}
+.title__title1{
+    text-align: center;
+    font-size: 95.7pt;
+    padding-bottom: 0px;
+}
+.title__title2{
+    text-align: center;
+    font-size:134pt;
+}
