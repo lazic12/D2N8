@@ -5,16 +5,77 @@
     padding-top: 85px;
     display: block; 
     text-align: center; /* Выравнивание по центру */
+    padding-bottom: 250px;
 }
-.title{
-    line-height: 0px
+.title-wrap{
+    line-height: 0px;
+    padding-bottom: 240px;
 }
-.title__title1{
+.title-wrap__title1{
+    display: block;
     text-align: center;
     font-size: 95.7pt;
     padding-bottom: 0px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
 }
-.title__title2{
+.title-wrap__title2{
+    display: block;
     text-align: center;
     font-size:134pt;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.see-how-text{
+    padding-bottom: 115px;
+}
+.see-how-text__item{
+    font-family: Droid, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600px;
+    letter-spacing: -1px;
+}
+.page5{
+    background-color: white; 
+    padding:  93px 314px 103px 383px;
+  }
+.block-skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.box-skills{
+    width: 30%;
+    text-align: left;
+}
+.box-skills__image{
+    height: 56px;
+    width: 100px;
+    transform: scale(1, 1.1);
+    padding-bottom: 39px;
+}
+.box-skills__line{
+    border: none;
+    width: 80px;
+    background-color: #FBCC00;
+    height: 3px;
+    position: absolute;
+    margin-top: -35px;
+    
+}
+.box-skills__title{
+    font-size: 36pt;
+    font-family: 'Bebas Neue', sans-serif;
+    
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-bottom: 35px;
+    
+}
+.box-skills__text{
+    word-wrap: normal;
+    font-size: 18pt;
+    font-family: 'Droid Serif',serif;
+
 }
