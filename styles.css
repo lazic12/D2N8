@@ -4,6 +4,21 @@
 
 .page1 {
   background-color: #fbcc00;
+  position: relative;
+  /* background-image: url("https://triadoro.com/wp-content/uploads/2018/11/soyuz.jpg"); */
+}
+.page1::after {
+  content: "";
+  background: url("https://hightech.fm/wp-content/uploads/2019/10/dims-1.jpg");
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: auto;
+  background-size: 100%;
+  position: fixed;
 }
 
 .logo {
