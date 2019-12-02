@@ -1,165 +1,167 @@
 * {
-  transition: 0.3s;
+    transition: 0.3s;
 }
+
 body {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .page1 {
-  background-color: hsl(49, 100%, 49%);
-  position: static;
-  margin: 0;
-  padding: 0;
+    background-color: hsl(49, 100%, 49%);
+    position: static;
+    margin: 0;
+    padding: 0;
 
-  /* background-image: url("https://triadoro.com/wp-content/uploads/2018/11/soyuz.jpg"); */
+    /* background-image: url("https://triadoro.com/wp-content/uploads/2018/11/soyuz.jpg"); */
 }
+
 .page1::after {
-  content: "";
-  background: url("https://hightech.fm/wp-content/uploads/2019/10/dims-1.jpg");
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  /* z-index: auto; */
-  background-size: 100%;
-  position: fixed;
+    content: "";
+    background: url("https://hightech.fm/wp-content/uploads/2019/10/dims-1.jpg");
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: 100% auto;
+    position: fixed;
+    background-repeat: no-repeat;
 }
+
+
 .logo {
-  padding-top: 85px;
-  display: block;
-  text-align: center;
-  /* Выравнивание по центру */
-  padding-bottom: 250px;
+    padding-top: 85px;
+    display: block;
+    text-align: center;
+    padding-bottom: 250px;
 }
 
 .title-wrap {
-  line-height: 0px;
-  padding-bottom: 240px;
+    line-height: 0px;
+    padding-bottom: 240px;
 }
 
 .title-wrap__title1 {
-  display: block;
-  text-align: center;
-  font-size: 95.7pt;
-  padding-bottom: 0px;
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+    display: block;
+    text-align: center;
+    font-size: 95.7pt;
+    padding-bottom: 0px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
 }
 
 .title-wrap__title2 {
-  display: block;
-  text-align: center;
-  font-size: 134pt;
-  font-family: "Bebas Neue", sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 134pt;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .see-how-text {
-  padding-bottom: 115px;
+    padding-bottom: 115px;
 }
 
 .see-how-text__item {
-  font-family: Droid, sans-serif;
-  font-size: 24px;
-  text-align: center;
-  font-weight: 600px;
-  letter-spacing: -1px;
+    font-family: Droid, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600px;
+    letter-spacing: -1px;
 }
 
 .page2 {
-  background-color: white;
-  margin-bottom: 300px;
+    background-color: white;
+    margin-bottom: 300px;
 }
 
 .description {
-  margin-top: 20%;
-  margin-bottom: 5%;
+    margin-top: 20%;
+    margin-bottom: 5%;
 }
 
 .description__slogan1,
 .description__slogan2 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 80pt;
-  text-align: center;
-  text-decoration: underline;
-  text-decoration-color: #fbcc00;
-  line-height: 0.5em;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 80pt;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fbcc00;
+    line-height: 0.5em;
 }
 
 .description__slogan2 {
-  text-transform: lowercase;
+    text-transform: lowercase;
 }
 
 .description__text {
-  text-align: center;
-  font-size: 20pt;
-  padding: 10px 10% 0 15%;
-  text-align: center;
+    text-align: center;
+    font-size: 20pt;
+    padding: 10px 10% 0 15%;
+    text-align: center;
 }
 
 .form-reference {
-  padding-bottom: 50%;
-  /* position: relative;
+    padding-bottom: 50%;
+    /* position: relative;
     left: 90%;
     transform: translate(-50%, 0); */
-  text-align: center;
+    text-align: center;
 }
 
 .form-reference__item {
-  border-radius: 9px;
-  background-color: #fbcc00;
-  height: 58px;
-  color: black;
-  width: 263px;
-  font-size: 15pt;
+    border-radius: 9px;
+    background-color: #fbcc00;
+    height: 58px;
+    color: black;
+    width: 263px;
+    font-size: 15pt;
 }
 
 .page5 {
-  background-color: white;
-  padding: 10% 15.2% 10.8% 18.7%;
+    background-color: white;
+    padding: 10% 15.2% 10.8% 18.7%;
 }
 
 .block-skills {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .box-skills {
-  width: 30%;
-  text-align: left;
-  flex-basis: 400px;
+    width: 30%;
+    text-align: left;
+    flex-basis: 400px;
 }
 
 .box-skills__image {
-  height: 56px;
-  width: 100px;
-  transform: scale(1, 1.1);
-  padding-bottom: 39px;
+    height: 56px;
+    width: 100px;
+    transform: scale(1, 1.1);
+    padding-bottom: 39px;
 }
 
 .box-skills__line {
-  border: none;
-  width: 80px;
-  background-color: #fbcc00;
-  height: 3px;
-  position: absolute;
-  margin-top: -35px;
+    border: none;
+    width: 80px;
+    background-color: #fbcc00;
+    height: 3px;
+    position: absolute;
+    margin-top: -35px;
 }
 
 .box-skills__title {
-  font-size: 30pt;
-  font-family: "Bebas Neue", sans-serif;
+    font-size: 30pt;
+    font-family: "Bebas Neue", sans-serif;
 
-  font-weight: 500;
-  letter-spacing: -1px;
-  padding-bottom: 35px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    padding-bottom: 35px;
 }
 
 .box-skills__text {
-  word-wrap: normal;
-  font-size: 20pt;
-  font-family: "PT Serif", serif;
+    word-wrap: normal;
+    font-size: 20pt;
+    font-family: "PT Serif", serif;
 }
