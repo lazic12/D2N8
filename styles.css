@@ -14,6 +14,7 @@ body {
   /* background: url(https://hightech.fm/wp-content/uploads/2019/10/dims-1.jpg) no */
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 }
+
 /* .background {
   width: 100%;
   height: 100vh;
@@ -87,19 +88,25 @@ body {
 }
 
 .page2 {
-  background-color: rgba(255, 255, 255, 0.7);
-  height: 100vh;
+  background-color: rgba(231, 223, 223, 0.856);
+  height: 120vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.page2::after {
+  content: "";
+  height: 50%;
+  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+}
+
 .description {
-  margin-top: 20%;
-  margin-bottom: 5%;
+  margin-top: 5%;
   position: relative;
   display: flex;
   flex-direction: column;
+
   align-items: center;
   justify-content: center;
 }
@@ -107,7 +114,7 @@ body {
 .description__slogan1,
 .description__slogan2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 80pt;
+  font-size: 95px;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -134,13 +141,16 @@ body {
 
 .description__text {
   text-align: center;
-  font-size: 20pt;
-  padding: 10px 10% 0 15%;
+  height: 100%;
+  width: 40%;
+  font-size: 30px;
+  /* padding: 10px 10% 0 15%; */
   text-align: center;
+  line-height: 50px;
 }
 
 .form-reference {
-  padding-bottom: 50%;
+  margin-bottom: 5%;
   position: relative;
   /* left: 90%;
     transform: translate(-50%, 0); */
@@ -149,11 +159,19 @@ body {
 
 .form-reference__item {
   border-radius: 9px;
+  border: none;
+  font-family: "Bebas Neue", sans-serif;
   background-color: #fbcc00;
-  height: 58px;
+  height: 70px;
   color: black;
-  width: 263px;
-  font-size: 15pt;
+  width: 300px;
+  font-size: 35px;
+  letter-spacing: 1.3px;
+}
+
+.form-reference__item:hover {
+  background-color: hsl(49, 73%, 45%);
+  transition: 0.3s;
 }
 
 .page5 {
@@ -165,12 +183,13 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .box-skills {
   width: 30%;
   text-align: left;
-  flex-basis: 400px;
+  padding: 0 20px 0 20px;
 }
 
 .box-skills__image {
