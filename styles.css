@@ -53,6 +53,7 @@ body {
   padding-top: 85px;
   display: block;
   text-align: center;
+  position: relative;
 }
 
 .title-wrap {
@@ -89,7 +90,7 @@ body {
 
 .page2 {
   background-color: rgba(231, 223, 223, 0.856);
-  height: 120vh;
+  height: 170vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -97,12 +98,12 @@ body {
 
 .page2::after {
   content: "";
-  height: 50%;
+  height: 170vh;
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 }
 
 .description {
-  margin-top: 5%;
+  /* margin-top: 5%; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -114,7 +115,7 @@ body {
 .description__slogan1,
 .description__slogan2 {
   font-family: "Bebas Neue", sans-serif;
-  font-size: 95px;
+  font-size: 90px;
   text-align: center;
   display: inline-block;
   position: relative;
@@ -146,7 +147,7 @@ body {
   font-size: 30px;
   /* padding: 10px 10% 0 15%; */
   text-align: center;
-  line-height: 50px;
+  line-height: 35px;
 }
 
 .form-reference {
