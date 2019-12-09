@@ -90,7 +90,8 @@ body {
 
 .page2 {
   background-color: rgba(231, 223, 223, 0.856);
-  height: 170vh;
+  height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -98,7 +99,7 @@ body {
 
 .page2::after {
   content: "";
-  height: 170vh;
+  height: 50vh;
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 }
 
@@ -168,12 +169,106 @@ body {
   width: 300px;
   font-size: 35px;
   letter-spacing: 1.3px;
+
 }
 
 .form-reference__item:hover {
   background-color: hsl(49, 73%, 45%);
   transition: 0.3s;
 }
+
+.page3 {
+  background-color: rgba(231, 223, 223, 0.856);
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.whoweare {
+  margin: 5%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.whoweare__slogan {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 90px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  line-height: 0.2em;
+}
+
+
+.whoweare__slogan::after {
+  display: block;
+  position: bottom;
+  content: "";
+  height: 40px;
+  width: 100%;
+  background-color: #fbcc00;
+}
+
+.whoweare__text {
+  text-align: center;
+  height: 100%;
+  width: 50%;
+  font-size: 30px;
+  /* padding: 10px 10% 0 15%; */
+  text-align: center;
+  line-height: 35px;
+}
+
+.page4 {
+  background: url(Pics/1x/pic\ 2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 80%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(242, 242, 242, 1);
+  padding: 10%
+}
+
+.page6 {
+  content: "";
+  height: 50vh;
+  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+}
+
+.photo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: -12.5%;
+}
+
+.natasha,
+.igor {
+  max-width: 100%;
+  width: 60%;
+  min-width: 30%;
+  position: relative;
+}
+
+.natasha {
+  margin-bottom: -7%;
+}
+
+/* 
+.page3::after {
+  content: "";
+  height: 50vh;
+  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+} */
+
 
 .page5 {
   background-color: white;
