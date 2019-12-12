@@ -103,6 +103,34 @@ body {
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 }
 
+header {
+  background: yellow;
+}
+
+.CompanyLogo {
+  filter: brightness(250%);
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Bebas Neue", sans-serif;
+
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 35px;
+  color: white;
+}
+
+
 .description {
   /* margin-top: 5%; */
   position: relative;
