@@ -102,34 +102,67 @@ body {
   height: 50vh;
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 }
+/* header {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+} */
 
-header {
-  background: yellow;
-}
-
-.CompanyLogo {
-  filter: brightness(250%);
-  float: left;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
+.navbar_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 7%;
+  background: rgb(44, 44, 40);
   margin: 0;
   padding: 0;
-  list-style: none;
-  font-family: "Bebas Neue", sans-serif;
-
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
-nav li {
-  display: inline-block;
-  margin: 0 35px;
+.small-logo {
+  cursor: pointer;
+  height: 60px;
+  width: 75px;
+  background-position: center;
+  padding: 5px 17%;
+}
+li,
+a,
+button {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  text-decoration: none;
   color: white;
 }
+.nav__links {
+  list-style: none;
+}
+.nav__links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+  color: hsl(49, 100%, 49%);
+}
 
+.nav_button {
+  padding: 9px 25px;
+  background-color: rgba(0, 133, 233, 1);
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.nav_button:hover {
+  background-color: rgb(6, 109, 187);
+}
 
 .description {
   /* margin-top: 5%; */
@@ -197,7 +230,6 @@ nav li {
   width: 300px;
   font-size: 35px;
   letter-spacing: 1.3px;
-
 }
 
 .form-reference__item:hover {
@@ -233,7 +265,6 @@ nav li {
   line-height: 0.2em;
 }
 
-
 .whoweare__slogan::after {
   display: block;
   position: bottom;
@@ -254,14 +285,14 @@ nav li {
 }
 
 .page4 {
-  background: url(Pics/1x/pic\ 2.png);
+  background: url(pics/1x/pic2.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: 80%;
   height: 100%;
   position: relative;
-  background-color: rgba(242, 242, 242, 1);
-  padding: 10%
+  background-color: #f2f2f2;
+  padding: 10%;
 }
 
 .page6 {
@@ -296,7 +327,6 @@ nav li {
   height: 50vh;
   background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
 } */
-
 
 .page5 {
   background-color: white;
