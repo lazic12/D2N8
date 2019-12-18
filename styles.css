@@ -111,6 +111,7 @@ body {
   background-position: center center;
   background-attachment: fixed;
 }
+
 /* header {
   position: sticky;
   top: 0;
@@ -119,9 +120,9 @@ body {
 
 .navbar_container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 7%;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* padding: 20px; */
   background: rgb(44, 44, 40);
   margin: 0;
   padding: 0;
@@ -129,6 +130,7 @@ body {
   position: sticky;
   top: 0;
   z-index: 99;
+  min-height: 9vh;
 }
 
 .small-logo {
@@ -136,27 +138,35 @@ body {
   height: 60px;
   width: 75px;
   background-position: center;
-  padding: 5px 17%;
+  /* padding: 5px 10%; */
 }
+
 li,
 a,
 button {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 27px;
   text-decoration: none;
   color: white;
+  margin: 5px;
 }
+
 .nav__links {
   list-style: none;
+  display: flex;
+  margin: 5px;
 }
-.nav__links li {
+
+/* .nav__links li {
   display: inline-block;
   padding: 0 20px;
-}
+} */
+
 .nav__links li a {
   transition: all 0.3s ease 0s;
 }
+
 .nav__links li a:hover {
   color: hsl(49, 100%, 49%);
 }
@@ -169,6 +179,7 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
+
 .nav_button:hover {
   background-color: rgb(6, 109, 187);
 }
@@ -306,8 +317,7 @@ button {
 
 .page6 {
   content: "";
-  height: 50vh;
-  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+  height: 70vh;
 }
 
 .photo-wrapper {
