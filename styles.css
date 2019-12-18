@@ -12,7 +12,12 @@ body {
   padding: 0;
   margin: 0;
   /* background: url(https://hightech.fm/wp-content/uploads/2019/10/dims-1.jpg) no */
-  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+  background-image: url(Pics/dims-1.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 90vh;
 }
 
 /* .background {
@@ -100,7 +105,11 @@ body {
 .page2::after {
   content: "";
   height: 50vh;
-  background: url(Pics/dims-1.jpg) no-repeat center fixed / cover;
+  background-image: url(Pics/dims-1.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
 }
 /* header {
   position: sticky;
@@ -335,15 +344,16 @@ button {
 
 .block-skills {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  padding: 100px 20px;
 }
 
 .box-skills {
-  width: 30%;
+  width: 25%;
   text-align: left;
-  padding: 0 20px 0 20px;
+  padding: 0 8px;
 }
 
 .box-skills__image {
@@ -353,26 +363,26 @@ button {
   padding-bottom: 39px;
 }
 
-.box-skills__line {
-  border: none;
-  width: 80px;
-  background-color: #fbcc00;
-  height: 3px;
-  position: absolute;
-  margin-top: -35px;
-}
-
 .box-skills__title {
-  font-size: 30pt;
+  font-size: 1.9rem;
   font-family: "Bebas Neue", sans-serif;
-
-  font-weight: 500;
+  line-height: 1.33em;
+  font-weight: 400;
   letter-spacing: -1px;
   padding-bottom: 35px;
+}
+.box-skills__title::after {
+  display: block;
+  position: bottom;
+  content: "";
+  width: 90px;
+  background-color: #fbcc00;
+  height: 4px;
+  margin-top: 15px;
 }
 
 .box-skills__text {
   word-wrap: normal;
-  font-size: 20pt;
+  font-size: 24px;
   font-family: "PT Serif", serif;
 }
