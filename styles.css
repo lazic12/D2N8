@@ -58,6 +58,7 @@ body {
   display: block;
   text-align: center;
   position: relative;
+
 }
 
 .title-wrap {
@@ -276,7 +277,8 @@ button {
   transition: 0.3s;
 }
 
-.page3 {
+.page3,
+.page7 {
   background-color: rgba(231, 223, 223, 0.856);
   height: 55vh;
   position: relative;
@@ -285,7 +287,8 @@ button {
   justify-content: space-between;
 }
 
-.whoweare {
+.whoweare,
+.page-7 {
   margin: 5%;
   position: relative;
   display: flex;
@@ -295,7 +298,8 @@ button {
   justify-content: center;
 }
 
-.whoweare__slogan {
+.whoweare__slogan,
+.page-7__title {
   font-family: "Bebas Neue", sans-serif;
   font-size: 90px;
   text-align: center;
@@ -304,7 +308,8 @@ button {
   line-height: 0.2em;
 }
 
-.whoweare__slogan::after {
+.whoweare__slogan::after,
+.page-7__title::after {
   display: block;
   position: bottom;
   content: "";
@@ -313,7 +318,8 @@ button {
   background-color: #fbcc00;
 }
 
-.whoweare__text {
+.whoweare__text,
+.page-7__text {
   text-align: center;
   height: 100%;
   width: 50%;
@@ -334,9 +340,10 @@ button {
   padding: 10%;
 }
 
-.page6 {
+.page6,
+.page8 {
   content: "";
-  height: 60vh;
+  height: 50vh;
 }
 
 .photo-wrapper {
