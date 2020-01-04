@@ -260,7 +260,7 @@ button {
   text-align: center;
 }
 
-.form-reference__item {
+.button {
   border-radius: 9px;
   border: none;
   font-family: "Bebas Neue", sans-serif;
@@ -272,15 +272,16 @@ button {
   letter-spacing: 1.3px;
 }
 
-.form-reference__item:hover {
+.button:hover {
   background-color: hsl(49, 73%, 45%);
   transition: 0.3s;
 }
 
 .page3,
-.page7 {
+.page7,
+.page9 {
   background-color: rgba(231, 223, 223, 0.856);
-  height: 55vh;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -288,7 +289,8 @@ button {
 }
 
 .whoweare,
-.page-7 {
+.page-7,
+.page-9 {
   margin: 5%;
   position: relative;
   display: flex;
@@ -299,7 +301,10 @@ button {
 }
 
 .whoweare__slogan,
-.page-7__title {
+.page-7__title,
+.page-9__title1,
+.page-9__title2,
+.page-9__title3 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 90px;
   text-align: center;
@@ -308,8 +313,18 @@ button {
   line-height: 0.2em;
 }
 
+.page-9__title1,
+.page-9__title2,
+.page-9__title3 {
+  margin: 1%;
+  max-width: 100%;
+}
+
 .whoweare__slogan::after,
-.page-7__title::after {
+.page-7__title::after,
+.page-9__title1::after,
+.page-9__title2::after,
+.page-9__title3::after {
   display: block;
   position: bottom;
   content: "";
@@ -319,7 +334,8 @@ button {
 }
 
 .whoweare__text,
-.page-7__text {
+.page-7__text,
+.page-9__text {
   text-align: center;
   height: 100%;
   width: 50%;
@@ -341,9 +357,10 @@ button {
 }
 
 .page6,
-.page8 {
+.page8,
+.page10 {
   content: "";
-  height: 50vh;
+  height: 60vh;
 }
 
 .photo-wrapper {
@@ -421,4 +438,73 @@ button {
   font-size: 20px;
   font-family: "PT Serif", serif;
   padding-bottom: 25px;
+}
+
+.page11 {
+  background-color: white;
+
+}
+
+h5 {
+  text-align: center;
+  padding: 5%;
+  font-size: 24px;
+  letter-spacing: -1px;
+}
+
+.image {
+  height: 100%;
+  width: 150px;
+  transform: scale(0.8, 0.8);
+}
+
+.text .name {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 3% 0;
+  text-align: left;
+}
+
+.text .founded {
+  padding-bottom: 7px;
+
+}
+
+.link {
+  color: #4971f7;
+}
+
+.link:hover {
+  transition: 0.3s;
+  color: #353591;
+}
+
+.text .description-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.projects-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-items: center;
+  /* padding: 100px 20px; */
+}
+
+.projects-content__project {
+  width: 45%;
+  text-align: left;
+  padding: 0 8px;
+}
+
+.projects-content__project__item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
 }
