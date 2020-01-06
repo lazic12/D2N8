@@ -281,7 +281,7 @@ button {
 .page7,
 .page9 {
   background-color: rgba(231, 223, 223, 0.856);
-  height: 100vh;
+  height: 80vh;
   position: relative;
   display: flex;
   flex-direction: column;
