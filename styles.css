@@ -58,7 +58,6 @@ body {
   display: block;
   text-align: center;
   position: relative;
-
 }
 
 .title-wrap {
@@ -200,7 +199,6 @@ button {
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
-
 }
 
 .description {
@@ -279,7 +277,8 @@ button {
 
 .page3,
 .page7,
-.page9 {
+.page9,
+.page13 {
   background-color: rgba(231, 223, 223, 0.856);
   height: 80vh;
   position: relative;
@@ -290,7 +289,8 @@ button {
 
 .whoweare,
 .page-7,
-.page-9 {
+.page-9,
+.page-13 {
   margin: 5%;
   position: relative;
   display: flex;
@@ -304,7 +304,8 @@ button {
 .page-7__title,
 .page-9__title1,
 .page-9__title2,
-.page-9__title3 {
+.page-9__title3,
+.page-13__submit {
   font-family: "Bebas Neue", sans-serif;
   font-size: 90px;
   text-align: center;
@@ -324,7 +325,8 @@ button {
 .page-7__title::after,
 .page-9__title1::after,
 .page-9__title2::after,
-.page-9__title3::after {
+.page-9__title3::after,
+.page-13__submit::after {
   display: block;
   position: bottom;
   content: "";
@@ -358,7 +360,8 @@ button {
 
 .page6,
 .page8,
-.page10 {
+.page10,
+.page12 {
   content: "";
   height: 60vh;
 }
@@ -442,7 +445,6 @@ button {
 
 .page11 {
   background-color: white;
-
 }
 
 h5 {
@@ -467,7 +469,6 @@ h5 {
 
 .text .founded {
   padding-bottom: 7px;
-
 }
 
 .link {
