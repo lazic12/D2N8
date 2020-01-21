@@ -400,16 +400,21 @@ button {
 
 .block-skills {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
-  justify-items: center;
-  padding: 100px 20px;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 100px 0;
+
 }
 
 .box-skills {
-  width: 31.5%;
-  text-align: left;
-  padding: 0 8px;
+  /* padding: 0 0; */
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+
+
+
 }
 
 .box-skills__image {
@@ -424,6 +429,7 @@ button {
   line-height: 1.33em;
   font-weight: 400;
   letter-spacing: -1px;
+  width: 35%;
 }
 
 .box-skills__title::after {
@@ -441,9 +447,11 @@ button {
   font-size: 20px;
   font-family: "PT Serif", serif;
   padding-bottom: 25px;
+  width: 75%;
 }
 
-.page11 {
+.page11,
+.page13 {
   background-color: white;
 }
 
@@ -483,6 +491,7 @@ h5 {
 .text .description-text {
   font-size: 18px;
   font-weight: 300;
+
 }
 
 .projects-content {
@@ -494,7 +503,7 @@ h5 {
 }
 
 .projects-content__project {
-  width: 45%;
+  width: 35%;
   text-align: left;
   padding: 0 8px;
 }
